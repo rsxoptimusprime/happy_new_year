@@ -1,8 +1,8 @@
 Function Wish-HappyNewYear
 {
     Clear-Host
-    $Message = 'Happy New Year Team Optim'
-    $Year = '2021'.PadLeft(($Message.Length - 1) * 2)
+    $Message = 'Happy New Year'
+    $Year = 'Team Optim 2021'.PadLeft(($Message.Length - 1) * 2)
     $Line = "*" * $($Message.Length + 3)
     $WebSite = 'artii.herokuapp.com'
     $CurPos = $host.UI.RawUI.CursorPosition
